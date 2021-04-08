@@ -30,6 +30,13 @@ public class FollowPath : MonoBehaviour
         currentWP = 0;
     }
 
+    public void GoToFabrica()
+    {
+        g.AStar(currentNode, wps[8]);
+        //Reseta a current que ele esta
+        currentWP = 0;
+    }
+
     private void LateUpdate()
     {
       
