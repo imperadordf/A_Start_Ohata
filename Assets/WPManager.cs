@@ -13,6 +13,8 @@ public struct Link{
 
 public class WPManager : MonoBehaviour
 {
+ 
+
     //array de Waypoints
     public GameObject[] waypoints; 
     //A direção que ele pode fazer, com o Link, direção Bi e Uni
